@@ -34,7 +34,7 @@ def new_canvas():
 frame=Frame(root,width=60,height=500,bg="white")
 frame.place(x=20,y=20)
 
-eraser=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\icons8-eraser-30.png")
+eraser=PhotoImage(file="icons8-eraser-30.png")
 Button(frame,image=eraser,command=new_canvas).place(x=13,y=400)
 
 colors=Canvas(root,bg="#ffffff",width=37,height=300,bd=0)
